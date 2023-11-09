@@ -1,4 +1,14 @@
 $(function() {
+  $('.menu-trigger').on('click', function(event) {
+    $(this).toggleClass('active');
+    $('#sp-menu').fadeToggle();
+    event.preventDefault();
+  });
+});
+
+
+// スムーススクロール
+$(function() {
   $('#back a').on('click',function(event){
     $('body, html').animate({
       scrollTop:0
@@ -9,10 +19,7 @@ $(function() {
 
 
 
-
-
-
-
+// スワイパー
 const swiper = new Swiper('.swiper', {
   loop: true,
   pagination: {
