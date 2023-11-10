@@ -103,22 +103,22 @@ h1 {
 
 
 
-/*#back {*/
-/*  position: fixed;*/
-/*  right: 20px;*/
-/*  bottom: 20px;*/
-/*}*/
+#back {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
 
-/*#back img {*/
-/*  width: 50px;*/
-/*}*/
+#back img {
+  width: 50px;
+}
 
-/*.swiper {*/
-/*  width: 600px;*/
-/*  height: 600px;*/
-/*}*/
+.swiper {
+  width: 600px;
+  height: 600px;
+}
 
-/*:root {*/
-/*  --swiper-navigation-color: #ffffff;*/
-/*  --swiper-pagination-color: #ffffff;*/
-/*}*/
+:root {
+  --swiper-navigation-color: #ffffff;
+  --swiper-pagination-color: #ffffff;
+}
